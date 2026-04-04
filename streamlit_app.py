@@ -22,7 +22,7 @@ contract_two = 1 if contract == "Two year" else 0
 if st.button("Predict"):
     try:
         response = requests.post(
-           "http://127.0.0.1:8000/predict",
+           "https://churn-api-xa9z.onrender.com/predict",
             json={
                 "tenure": tenure,
                 "monthly_charges": monthly,
