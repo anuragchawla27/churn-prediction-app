@@ -32,7 +32,7 @@ if st.button("Predict"):
                 "contract_two_year": contract_two
             }
         )
-
+        
         result = response.json()
 
         # Handle error from API
