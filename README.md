@@ -54,12 +54,19 @@ Prediction is returned and displayed
 📂 Project Structure
 
 churn-prediction-app/
+
 │
+
 ├── app.py                # Streamlit frontend
+
 ├── main.py               # FastAPI backend
+
 ├── model.pkl             # Trained ML model
+
 ├── scaler.pkl            # Scaler used in preprocessing
+
 ├── requirements.txt      # Dependencies
+
 └── README.md
 
 🛠️ Setup Instructions
